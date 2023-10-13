@@ -23,14 +23,9 @@ export default function Pagina(){
         <Tudo>
         <Header>
           <img src={logobet}/>
-          
-          <a href='futbase.pro'><BotaoFut>
-            <p>Voltar ao Futbase</p>
-            <img src={logofutbase}/>
-          </BotaoFut></a>
-          
+          <h1>Este site é demonstrativo com objetivo de estabelecer parceiros para o Futbase</h1>
         </Header>
-        <h1>Este site é demonstrativo com objetivo de estabelecer parceiros para o Futbase</h1>
+        
         <Box>
             <p>Para você, futuro parceiro do Futbase:</p>
           <p>
@@ -51,7 +46,7 @@ display:flex;flex-direction:column;align-items:center;justify-content:space-even
 border-radius:30px;
 border:4px dashed white;
 background-color:#3881ed;margin-top:30px;
-width:calc(100vw - 60px);height:calc(100vh - 240px);
+width:calc(100vw - 60px);height:calc(100vh - 190px);
 p{color:white;width:80%;font-size:22px;margin:0 0 30px 0}
 `
 const Header=styled.div`height:80px;width:100%;
@@ -59,6 +54,8 @@ display:flex;justify-content:space-between;align-items:center;
 img{height:80px;width:auto}
 
 padding:10px;box-sizing:border-box;
+h1{font-size:18px;color:white;width:calc(100% - 80px);font-weight:400;
+    height:50px;display:flex;align-items:center;justify-content:center}
 `
 const BotaoFut=styled.div`
 
@@ -67,8 +64,8 @@ display:flex;background-color:#008037;align-items:center;
 img{height:50px;width:auto}color:white;
 `
 const Tudo=styled.div`
-h1{font-size:18px;color:white;width:350px;font-weight:400;height:50px;
-display:flex;align-items:center;}
+
+
 width:100vw;height:100vh;
 background-color:#0663EF;align-items:center;
 display:flex;flex-direction:column;
