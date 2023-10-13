@@ -45,7 +45,7 @@ display:flex;flex-direction:column;align-items:center;justify-content:space-even
 
 border-radius:30px;
 border:4px dashed white;
-background-color:#3881ed;margin-top:30px;
+background-color:#004fc6;margin-top:30px;
 width:calc(100vw - 60px);height:calc(100vh - 190px);
 p{color:white;width:80%;font-size:22px;margin:0 0 30px 0}
 `
